@@ -1,6 +1,7 @@
 <template>
   <div class="hc-home">
-    <Button>Test 123</Button>
+    <h1 class="--spacer">Example of content formatting</h1>
+    <Button class="--spacer">Test 123</Button>
     <table class="hc-table">
       <thead>
         <tr>
@@ -71,5 +72,11 @@ export default class Home extends Vue {}
 }
 .--cell-female {
   color: var(--pink_300);
+}
+.--spacer {
+  margin-bottom: 25px;
+}
+h1 {
+  @include hc-general-title;
 }
 </style>
