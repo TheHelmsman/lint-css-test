@@ -11,72 +11,72 @@ $ nvm use 14
 ## Project setup
 
 ```
-$ yarn install
+$ yarn run install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-$ yarn serve
+$ yarn run serve
 ```
 
 ### Compiles and minifies for production
 
 ```
-$ yarn build
+$ yarn run build
 ```
 
 ### Run your unit tests
 
 ```
-$ yarn test:unit
+$ yarn run test:unit
 ```
 
 ### Run your end-to-end tests
 
 ```
-$ yarn test:e2e
+$ yarn run test:e2e
 ```
 
 ### Lints and fixes files
 
 ```
-$ yarn lint
-$ yarn lint:fix
+$ yarn run lint
+$ yarn run lint:fix
 ```
 
 ### Run your prettier
 
 ```
-$ yarn prettier
+$ yarn run prettier
 ```
 
 ### Run your format = prettier + lint:fix
 
 ```
-$ yarn format
+$ yarn run format
 ```
 
 ### Run your cz
 
 ```
-$ yarn cz
+$ yarn run cz
 ```
 
 ### Run your commit
 
 ```
-$ yarn commit
+$ yarn run commit
 ```
 
 ### Run your version
 
 ```
-$ yarn version
+$ yarn run version
 ```
 
 ### Run your ncu (npm-check-updates)
 
 ```
-$ yarn ncu
+$ yarn run ncu
 ```
