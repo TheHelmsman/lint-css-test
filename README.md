@@ -45,6 +45,12 @@ $ yarn run lint
 $ yarn run lint:fix
 ```
 
+### SCSS Lints
+
+```
+$ yarn run lint:scss
+```
+
 ### Run your prettier
 
 ```

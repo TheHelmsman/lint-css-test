@@ -30,12 +30,16 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "lint:fix": "vue-cli-service lint --fix",
+    "lint:scss": "npx stylelint '**/*.scss'",
     "prettier": "prettier --write '(src|tests|public)/**/*.{js,jsx,ts,tsx,vue,htm,html,json,xml,css,scss,sass}' '*.{js,jsx,ts,tsx,vue,htm,html,json,xml,css,scss,sass}'",
     "format": "yarn prettier && yarn lint:fix",
     "cz": "git cz",
     "commit": "git add -A && (git diff-index --quiet HEAD || git commit -m 'deploy' --no-verify) && git push origin HEAD",
     "version": "standard-version",
     "ncu": "ncu -u --timeout 100000  && yarn install  && yarn format"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.2.1"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
@@ -48,7 +52,10 @@
     "vue-router": "^4.0.8",
     "vuex": "^4.0.1",
     "vuex-module-decorators": "^1.0.1",
-    "vuex-router-sync": "^6.0.0-rc.1"
+    "vuex-router-sync": "^6.0.0-rc.1",
+    "stylelint-config-recess-order": "^2.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.1.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.3",
@@ -81,6 +88,8 @@
     "source-map-explorer": "^2.5.2",
     "standard-version": "^9.3.0",
     "typescript": "~4.4.0-dev.20210607",
-    "vue-jest": "^5.0.0-alpha.10"
+    "vue-jest": "^5.0.0-alpha.10",
+    "eslint-config-stylelint": "^8.1.0",
+    "stylelint": "^9.2.1"
   }
 }
