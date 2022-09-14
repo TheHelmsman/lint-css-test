@@ -94,112 +94,6 @@ html {
   --social_telegram_800: #0078b5;
   --social_whatsapp_500: #25d366;
   --social_whatsapp_800: #20b859;
-}
-
-html.\--night {
-  --brand_primary_800: #205bd9;
-  --brand_primary_500: #1781f3;
-  --brand_secondary_800: #de6807;
-  --brand_secondary_500: #f38a1f;
-  --green_500: #21ab5b;
-  --red_500: #e9475a;
-  --yellow_500: #e08e00;
-  --purple_500: #9864ce;
-  --pink_500: #d656a3;
-  --blue_500: #059ef0;
-  --lemon_500: #e5bf2e;
-  --cosmic_500: #546383;
-}
-
-html {
-  --white-graphite_900: var(--white);
-  --ink_50-graphite_900: var(--ink_50);
-  --white-graphite_800: var(--white);
-  --ink_25-graphite_800: var(--ink_25);
-  --white-graphite_700: var(--white);
-  --ink_50-graphite_700: var(--ink_50);
-  --white-graphite_600: var(--white);
-  --ink_300-graphite_600: var(--ink_300);
-  --ink_25-graphite_600: var(--ink_25);
-  --white-graphite_500: var(--white);
-  --brand_primary_50-graphite_500: var(--brand_primary_50);
-  --ink_300-graphite_500: var(--ink_300);
-  --ink_150-graphite_500: var(--ink_150);
-  --ink_50-graphite_500: var(--ink_50);
-  --ink_25-graphite_500: var(--ink_25);
-  --black_alpha_95-graphite_400: var(--black_alpha_95);
-  --white-graphite_400: var(--white);
-  --ink_500-graphite_300: var(--ink_500);
-  --ink_400-graphite_300: var(--ink_400);
-  --brand_primary_500-graphite_300: var(--brand_primary_500);
-  --ink_500_alpha_60-graphite_300: rgba(90, 100, 114, 0.6);
-  --ink_500_alpha_12-graphite_300_alpha_16: rgba(90, 100, 114, 0.12);
-  --ink_800-graphite_50: var(--ink_800);
-  --brand_primary_500-graphite_50: var(--brand_primary_500);
-  --ink_400-graphite_50: var(--ink_400);
-  --ink_800-ink_800: var(--ink_800);
-  --white-white: var(--white);
-  --brand_primary_500-white: var(--brand_primary_500);
-  --black_alpha_24-black_alpha_40: var(--black_alpha_24);
-  --black_alpha_16-black_alpha_24: var(--black_alpha_16);
-  --ink_50-black_alpha_24: var(--ink_50);
-  --black_alpha_16-black_alpha_12: var(--black_alpha_16);
-  --black_alpha_12-black_alpha_12: var(--black_alpha_12);
-  --brand_secondary_500-brand_primary_dark_500: var(--brand_secondary_500);
-}
-
-html.\--night {
-  --white-graphite_900: var(--graphite_900);
-  --ink_50-graphite_900: var(--graphite_900);
-  --white-graphite_800: var(--graphite_800);
-  --ink_50-graphite_800: var(--graphite_800);
-  --white-graphite_700: var(--graphite_700);
-  --ink_50-graphite_700: var(--graphite_700);
-  --white-graphite_600: var(--graphite_600);
-  --ink_300-graphite_600: var(--graphite_600);
-  --ink_25-graphite_600: var(--graphite_600);
-  --white-graphite_500: var(--graphite_500);
-  --brand_primary_50-graphite_500: var(--graphite_500);
-  --ink_300-graphite_500: var(--graphite_500);
-  --ink_150-graphite_500: var(--graphite_500);
-  --ink_50-graphite_500: var(--graphite_500);
-  --ink_25-graphite_500: var(--graphite_500);
-  --black_alpha_95-graphite_400: var(--graphite_400);
-  --white-graphite_400: var(--graphite_400);
-  --ink_500-graphite_300: var(--graphite_300);
-  --ink_400-graphite_300: var(--graphite_300);
-  --brand_primary_500-graphite_300: var(--graphite_300);
-  --ink_500_alpha_60-graphite_300: var(--graphite_300);
-  --ink_500_alpha_12-graphite_300_alpha_16: hsla(210, 4%, 56%, 0.16);
-  --ink_800-graphite_50: var(--graphite_50);
-  --brand_primary_500-graphite_50: var(--graphite_50);
-  --ink_400-graphite_50: var(--graphite_50);
-  --brand_primary_500-white: var(--white);
-  --black_alpha_24-black_alpha_40: var(--black_alpha_40);
-  --black_alpha_16-black_alpha_24: var(--black_alpha_24);
-  --ink_50-black_alpha_24: var(--black_alpha_24);
-  --black_alpha_16-black_alpha_12: var(--black_alpha_12);
-  --brand_secondary_500-brand_primary_dark_500: var(--brand_primary_500);
-}
-
-:root {
-  --white-none: var(--white);
-  --blue-white: var(--brand_primary_500);
-  --white-dark: var(--white);
-  --general-text-color: var(--ink_800);
-  --general-background-color: var(--ink_50);
-  --general-border: 1px solid var(--ink_300);
-  --general-block-color: var(--white);
-  --general-block-border: none;
-  --general-menu-background: var(--white);
-  --general-control-hover: var(--brand_primary_25);
-  --general-control-hover-color: var(--brand_primary_500);
-  --general-control-border-color: var(--brand_primary_500);
-  --page-header-color: var(--brand_primary_500);
-  --error-field-block-color: var(--red_50);
-}
-
-.\--night {
   --white-none: none;
   --blue-white: var(--graphite_50);
   --white-dark: var(--graphite_800);
@@ -215,3 +109,123 @@ html.\--night {
   --page-header-color: var(--graphite_800);
   --error-field-block-color: var(--graphite_800);
 }
+
+// html.\--night {
+//   --brand_primary_800: #205bd9;
+//   --brand_primary_500: #1781f3;
+//   --brand_secondary_800: #de6807;
+//   --brand_secondary_500: #f38a1f;
+//   --green_500: #21ab5b;
+//   --red_500: #e9475a;
+//   --yellow_500: #e08e00;
+//   --purple_500: #9864ce;
+//   --pink_500: #d656a3;
+//   --blue_500: #059ef0;
+//   --lemon_500: #e5bf2e;
+//   --cosmic_500: #546383;
+// }
+
+// html {
+//   --white-graphite_900: var(--white);
+//   --ink_50-graphite_900: var(--ink_50);
+//   --white-graphite_800: var(--white);
+//   --ink_25-graphite_800: var(--ink_25);
+//   --white-graphite_700: var(--white);
+//   --ink_50-graphite_700: var(--ink_50);
+//   --white-graphite_600: var(--white);
+//   --ink_300-graphite_600: var(--ink_300);
+//   --ink_25-graphite_600: var(--ink_25);
+//   --white-graphite_500: var(--white);
+//   --brand_primary_50-graphite_500: var(--brand_primary_50);
+//   --ink_300-graphite_500: var(--ink_300);
+//   --ink_150-graphite_500: var(--ink_150);
+//   --ink_50-graphite_500: var(--ink_50);
+//   --ink_25-graphite_500: var(--ink_25);
+//   --black_alpha_95-graphite_400: var(--black_alpha_95);
+//   --white-graphite_400: var(--white);
+//   --ink_500-graphite_300: var(--ink_500);
+//   --ink_400-graphite_300: var(--ink_400);
+//   --brand_primary_500-graphite_300: var(--brand_primary_500);
+//   --ink_500_alpha_60-graphite_300: rgba(90, 100, 114, 0.6);
+//   --ink_500_alpha_12-graphite_300_alpha_16: rgba(90, 100, 114, 0.12);
+//   --ink_800-graphite_50: var(--ink_800);
+//   --brand_primary_500-graphite_50: var(--brand_primary_500);
+//   --ink_400-graphite_50: var(--ink_400);
+//   --ink_800-ink_800: var(--ink_800);
+//   --white-white: var(--white);
+//   --brand_primary_500-white: var(--brand_primary_500);
+//   --black_alpha_24-black_alpha_40: var(--black_alpha_24);
+//   --black_alpha_16-black_alpha_24: var(--black_alpha_16);
+//   --ink_50-black_alpha_24: var(--ink_50);
+//   --black_alpha_16-black_alpha_12: var(--black_alpha_16);
+//   --black_alpha_12-black_alpha_12: var(--black_alpha_12);
+//   --brand_secondary_500-brand_primary_dark_500: var(--brand_secondary_500);
+// }
+
+// html.\--night {
+//   --white-graphite_900: var(--graphite_900);
+//   --ink_50-graphite_900: var(--graphite_900);
+//   --white-graphite_800: var(--graphite_800);
+//   --ink_50-graphite_800: var(--graphite_800);
+//   --white-graphite_700: var(--graphite_700);
+//   --ink_50-graphite_700: var(--graphite_700);
+//   --white-graphite_600: var(--graphite_600);
+//   --ink_300-graphite_600: var(--graphite_600);
+//   --ink_25-graphite_600: var(--graphite_600);
+//   --white-graphite_500: var(--graphite_500);
+//   --brand_primary_50-graphite_500: var(--graphite_500);
+//   --ink_300-graphite_500: var(--graphite_500);
+//   --ink_150-graphite_500: var(--graphite_500);
+//   --ink_50-graphite_500: var(--graphite_500);
+//   --ink_25-graphite_500: var(--graphite_500);
+//   --black_alpha_95-graphite_400: var(--graphite_400);
+//   --white-graphite_400: var(--graphite_400);
+//   --ink_500-graphite_300: var(--graphite_300);
+//   --ink_400-graphite_300: var(--graphite_300);
+//   --brand_primary_500-graphite_300: var(--graphite_300);
+//   --ink_500_alpha_60-graphite_300: var(--graphite_300);
+//   --ink_500_alpha_12-graphite_300_alpha_16: hsla(210, 4%, 56%, 0.16);
+//   --ink_800-graphite_50: var(--graphite_50);
+//   --brand_primary_500-graphite_50: var(--graphite_50);
+//   --ink_400-graphite_50: var(--graphite_50);
+//   --brand_primary_500-white: var(--white);
+//   --black_alpha_24-black_alpha_40: var(--black_alpha_40);
+//   --black_alpha_16-black_alpha_24: var(--black_alpha_24);
+//   --ink_50-black_alpha_24: var(--black_alpha_24);
+//   --black_alpha_16-black_alpha_12: var(--black_alpha_12);
+//   --brand_secondary_500-brand_primary_dark_500: var(--brand_primary_500);
+// }
+
+// :root {
+//   --white-none: var(--white);
+//   --blue-white: var(--brand_primary_500);
+//   --white-dark: var(--white);
+//   --general-text-color: var(--ink_800);
+//   --general-background-color: var(--ink_50);
+//   --general-border: 1px solid var(--ink_300);
+//   --general-block-color: var(--white);
+//   --general-block-border: none;
+//   --general-menu-background: var(--white);
+//   --general-control-hover: var(--brand_primary_25);
+//   --general-control-hover-color: var(--brand_primary_500);
+//   --general-control-border-color: var(--brand_primary_500);
+//   --page-header-color: var(--brand_primary_500);
+//   --error-field-block-color: var(--red_50);
+// }
+
+// .\--night {
+//   --white-none: none;
+//   --blue-white: var(--graphite_50);
+//   --white-dark: var(--graphite_800);
+//   --general-text-color: var(--graphite_50);
+//   --general-background-color: var(--graphite_800);
+//   --general-border: 1px solid var(--graphite_900);
+//   --general-block-color: var(--graphite_600);
+//   --general-block-border: 1px solid var(--graphite_900);
+//   --general-menu-background: var(--graphite_800);
+//   --general-control-hover: var(--graphite_500);
+//   --general-control-hover-color: var(--graphite_50);
+//   --general-control-border-color: var(--graphite_900);
+//   --page-header-color: var(--graphite_800);
+//   --error-field-block-color: var(--graphite_800);
+// }

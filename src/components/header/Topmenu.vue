@@ -58,6 +58,9 @@ export default class Topmenu extends Vue {
   display: flex;
   flex-direction: row;
 }
+ul {
+  list-style-type: none;
+}
 li {
   margin-right: 10px;
 }
