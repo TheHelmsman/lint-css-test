@@ -30,7 +30,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "lint:fix": "vue-cli-service lint --fix",
-    "lint:scss": "npx stylelint '**/*.scss'",
+    "lint:scss": "npx stylelint '**/*.scss' --fix",
     "prettier": "prettier --write '(src|tests|public)/**/*.{js,jsx,ts,tsx,vue,htm,html,json,xml,css,scss,sass}' '*.{js,jsx,ts,tsx,vue,htm,html,json,xml,css,scss,sass}'",
     "format": "yarn prettier && yarn lint:fix",
     "cz": "git cz",
